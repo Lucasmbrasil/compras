@@ -20,7 +20,7 @@ const downloadXLSX = () => {
 ['drumet', Math.ceil((numero.value/8))],
 ['coração', Math.ceil((numero.value/6))],
 ['linguiça 5kg', Math.round((numero.value/25))],
-['queijo coalho', Math.ceil((numero.value/25))],
+['queijo coalho', Math.round((numero.value/20))],
 ['',''],
 ['água (pack)', Math.floor((numero.value/10))],
 ['água c/ gás ',  Math.floor((numero.value/10))],
