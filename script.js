@@ -16,13 +16,14 @@ const downloadXLSX = () => {
 
   const dados = [
    [`${numero.value} pessoas`,''],
+    [`${bebida.value} c/ bebida`,''],
 ['alcatra', Math.round((numero.value/19))],
 ['picanha', Math.floor((numero.value/25))],
 ['porco' , Math.ceil((numero.value/16))],
 ['drumet', Math.ceil((numero.value/8))],
 ['coração', Math.ceil((numero.value/6))],
 ['linguiça 5kg', Math.round((numero.value/25))],
-['queijo coalho', queijo()],
+['queijo coalho', queijo(numero.value)],
 ['',''],
 ['água (pack)', Math.floor((bebida.value/10))],
 ['água c/ gás ',  Math.floor((bebida.value/10))],
