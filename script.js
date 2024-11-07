@@ -11,7 +11,8 @@ const downloadXLSX = () => {
   };
   
   wb.SheetNames.push('Compras');
-  
+    function queijo(pessoas) {if (pessoas < 30){return 2} else {return Math.ceil((pessoas/20))}}
+
   const dados = [
    [`${numero.value} pessoas`,''],
 ['alcatra', Math.ceil((numero.value/25))],
@@ -20,7 +21,7 @@ const downloadXLSX = () => {
 ['drumet', Math.ceil((numero.value/8))],
 ['coração', Math.ceil((numero.value/6))],
 ['linguiça 5kg', Math.round((numero.value/25))],
-['queijo coalho', Math.round((numero.value/20))],
+['queijo coalho', queijo(numero.value)],
 ['',''],
 ['água (pack)', Math.floor((numero.value/10))],
 ['água c/ gás ',  Math.floor((numero.value/10))],
